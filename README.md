@@ -1,5 +1,15 @@
 # Clams API Docs (BETA)
 
+## Request an API Key
+
+To get an API key and start using the Clams API, please sign up for the beta using the form at the link below:
+
+<a href="https://clams.tech/api" target="_blank">Sign Up for Beta</a>
+
+## Security
+
+Please note that the Clams API is intended to be used securely on the server side. API keys must be kept confidential and should never be exposed to the client (e.g., in front-end JavaScript code or mobile applications).
+
 ## Authentication
 
 All endpoints are secured and require an API key to be included in the request header.

@@ -189,8 +189,7 @@ Initiates an asynchronous capital gains report for a user, returning a `reportKe
   "userId": "550e8400-e29b-41d4-a716-446655440000",
   "algorithm": "FIFO",
   "from": "2023-01-01T00:00:00Z",
-  "to": "2023-12-31T23:59:59Z",
-  "webhookUrl": "https://example.com/webhook"
+  "to": "2023-12-31T23:59:59Z"
 }
 ```
 
@@ -198,8 +197,7 @@ Initiates an asynchronous capital gains report for a user, returning a `reportKe
   - `userId: string` (UUID) - The user's unique identifier.
   - `algorithm: string` - "FIFO", "LIFO", or "HIFO" (uppercase).
   - `from: string` (optional) - ISO 8601 UTC start datetime (e.g., "2023-01-01T00:00:00Z").
-  - `to: string` (optional) - ISO 8601 UTC end datetime (e.g., "2023-12-31T23:59:59Z").
-  - `webhookUrl: string` (optional) - URL for completion notification.
+  - `to: string` (optional) - ISO 8601 UTC end datetime (e.g., "2023-12-31T23:59:59Z")
 
 **Response**
 
@@ -229,7 +227,7 @@ Initiates an asynchronous capital gains report for a user, returning a `reportKe
 `GET /v0/reports/{report_key}`
 
 **Description**
-Retrieves the status or result of a report and can be polled as an alternative to using a webhook to receive the generated report.
+Retrieves the status and result of a report and can be polled to receive the generated report.
 
 **Method**
 `GET`

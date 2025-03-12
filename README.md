@@ -2,7 +2,7 @@
 
 ## Request an API Key
 
-If you would like to get an API key to start using the Clams API, please sign up for the beta using the link below:
+To get an API key and start using the Clams API, please sign up for the beta using the form at the link below:
 
 <a href="https://clams.tech/api" target="_blank">Sign Up for Beta</a>
 
